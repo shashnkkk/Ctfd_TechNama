@@ -9,7 +9,7 @@ services:
       shipyard.cloudsql.sidecar: 'true'
     build:
       context: '.'
-      dockerfile: 'docker/Dockerfile'
+      dockerfile: 'docker-compose.yml'
     env_file:
       - environments/local.env
     environment:
